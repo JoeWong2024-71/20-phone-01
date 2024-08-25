@@ -1,0 +1,105 @@
+/*phone_H*/
+@media screen and (max-width: 720px) {
+    div.re-size {
+      background-color: purple;
+      margin: 1px;
+      padding: 4px;
+      }
+   
+      .text-block_banner_01 {
+        position: absolute;
+        font-family:Impact,;
+        top: 121vw;
+        left: 6vw;
+        color: rgb(0, 255, 229);
+        font-size: 4mm;
+      }
+    
+        .text-block_banner_02 {
+          position: absolute;
+          font-family:Impact,;
+          top: 127vw;
+          left: 9vw;
+          color: rgb(0, 255, 229);
+          font-size: 5mm;
+        }    
+    
+          .text-block_banner_03_en {
+            position: absolute;
+            font-family:Impact,;
+            top: 135vw;
+            left: 6vw;
+            color: rgb(0, 255, 229);
+            font-size: 5mm;
+          }  
+       
+            .text-block_select_language {
+              position:absolute;
+              top:25vw;
+              right: 10vw;                    
+              font-size: 5mm;  
+            }   
+  
+              .text-block_english_button {
+                position:absolute;
+                top:30vw;
+                right: 20vw;                    
+                font-size: 5mm;  
+              }
+  
+                .text-block_chinese_button {
+                  position:absolute;
+                  top:36vw;
+                  right: 20vw;                    
+                  font-size: 5mm;  
+                } 
+                      
+                  .text-block_goto_playlist {
+                    position:absolute;
+                    top:110vw;
+                    right: 10vw;
+                    font-size: 5mm;  
+                  }                          
+                              
+                              /* Slideshow container */
+                              .slideshow-container {
+                                position:fixed;                              
+                                }
+                              
+                              /* Caption text */
+                              .text {                              
+                                font-size: 4.5mm;                      
+                                position:fixed;
+                                top: 25vw;
+                                left: 3vw;
+                                width: auto;
+                                text-align:left;
+                                padding: 10mm;
+                                }
+                              
+                              /* Number text (1/3 etc) */
+                            
+                              
+                              /* The dots/bullets/indicators */
+                              
+                              
+                              .active {
+                                background-color: #378b49;
+                              }
+                              
+                              /* Fading animation */
+                              .fade {
+                                animation-name: fade;
+                                animation-duration: 2s;
+                              }
+                              
+                              @keyframes fade {
+                                from {opacity:0.5} 
+                                to {opacity:1}
+                              }
+                              
+                              /* On smaller screens, decrease text size */
+                              @media only screen and (max-width: 300px) {
+                                .text {font-size: 11px}
+                              }  
+  }
